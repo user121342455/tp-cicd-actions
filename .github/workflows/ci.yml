@@ -6,6 +6,8 @@ on:
   pull_request:
     branches: [ main ]
 
+  workflow_call: # Permet l'appel par d'autres workflows
+
 jobs:
   lint-and-test:
     runs-on: ubuntu-latest
