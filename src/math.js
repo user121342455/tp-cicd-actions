@@ -11,3 +11,9 @@ function factorial(n) {
     return n * factorial(n - 1);
 }
 module.exports = { add, multiply, factorial };
+
+function subtract(a, b) {
+    return a - b;
+}
+
+module.exports = { subtract };
